@@ -79,7 +79,10 @@ function App() {
 
       {error && <div className="error-msg">{error}</div>}
 
+
       {/*Fetch all urls*/}
+
+      <h2>URL Statistics</h2>
       <div className="url-list">
         {urls.map((url, index) => (
           <div key={index} className="url-card">
